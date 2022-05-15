@@ -1,0 +1,22 @@
+{
+  "name": "orbit",
+  "version": "1.0.0",
+  "description": "A discord.js discord bot",
+  "main": "app.js",
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.4.1",
+    "discord-api-types": "^0.32.1",
+    "discord.js": "^13.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Mysteri0us",
+  "license": "ISC"
+}
