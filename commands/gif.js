@@ -41,5 +41,6 @@ exports.run = async(bot, message, args) => {
 
 exports.help = {
     name:"gif",
-    description: "This command can fetch anime gifs for the following topics : airkiss, angrystare, bite, bleh, blush, brofist, celebrate, cheers, clap, confused, cool, cry, cuddle, dance, drool, evillaugh, facepalm, handhold, happy, headbang, hug, kiss, laugh, lick, love, mad, nervous, no, nom, nosebleed, nuzzle, pat, peek, pinch, poke, pout, punch, roll, run, sad, scared, shrug, shy, sigh, sip, slap, sleep, slowclap, smack, smile, smug, sneeze, sorry, stare, stop, surprised, sweat, thumbsup, tickle, tired, wave, wink, woah, yawn, yay, yes."
+    description: "This command can fetch anime gifs for the following topics : airkiss, angrystare, bite, bleh, blush, brofist, celebrate, cheers, clap, confused, cool, cry, cuddle, dance, drool, evillaugh, facepalm, handhold, happy, headbang, hug, kiss, laugh, lick, love, mad, nervous, no, nom, nosebleed, nuzzle, pat, peek, pinch, poke, pout, punch, roll, run, sad, scared, shrug, shy, sigh, sip, slap, sleep, slowclap, smack, smile, smug, sneeze, sorry, stare, stop, surprised, sweat, thumbsup, tickle, tired, wave, wink, woah, yawn, yay, yes.",
+    syntax: "<required> [optional]"
 }
