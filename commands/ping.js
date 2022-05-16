@@ -3,5 +3,6 @@ exports.run = async (bot, message, args) => {
 }
 
 exports.help = {
-    name:"ping"
+    name:"ping",
+    description:"Replies with the message latency."
 }

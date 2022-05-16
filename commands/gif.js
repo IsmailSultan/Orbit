@@ -1,7 +1,7 @@
 // const { json } = require('body-parser');
-const Discord = require('discord.js');
 const https = require('https');
 const pl = require("pluralize")
+
 exports.run = async(bot, message, args) => {
     const apiUrl = "https://api.otakugifs.xyz/gif?reaction="
     const ImageUrl = `${apiUrl}${args[0]}`
