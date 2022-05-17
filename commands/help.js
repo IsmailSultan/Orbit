@@ -1,7 +1,5 @@
 
-const { channel } = require("diagnostics_channel");
 const fs = require("fs");
-const { slice } = require("lodash");
 const _ = require('lodash');
 exports.run = async(bot, message, args) => {
     // console.log(args.length)

@@ -1,9 +1,20 @@
-const { prefix, token } = require("./config.json");
+const { token } = require("./config.json");
+const mongoose = require("mongoose")
+const {itemsSchema,Item} = require("./commands/prefix")
+
 
 const { Client, Intents, Collection } = require('discord.js');
 const bot = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES,Intents.FLAGS.GUILD_MEMBERS] });
 
 const fs = require("fs");
+
+var MONGODB_URI = "mongodb://localhost/orbitDB"
+const options = {
+    family: 4 // Use IPv4, skip trying IPv6
+}
+mongoose.connect(MONGODB_URI,options)
+Item.find({name : "prefix"}).then(data => {console.log(data)})
+
 
 bot.commands = new Collection();
 
